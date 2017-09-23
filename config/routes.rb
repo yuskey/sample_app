@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  #states that when you go to the website www.url.com/static_pages/home it will execute 
+  #whatever is in the home function in the controller, same for help
   get 'static_pages/home'
 
   get 'static_pages/help'

@@ -7,9 +7,11 @@ class StaticPagesController < ApplicationController
   def help
   end
   
+  #the view (html webpage) associated with the help function is found in /app/views/about.html.er
   def about
   end
   
+  #the view (html webpage) associated with the help function is found in /app/views/contact.html.er
   def contact
   end
   

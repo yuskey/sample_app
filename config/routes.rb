@@ -1,12 +1,9 @@
 Rails.application.routes.draw do
+  root 'static_pages#home'
   #states that when you go to the website www.url.com/static_pages/home it will execute 
-  #whatever is in the home function in the controller, same for help
+  #whatever is in the home function in the controller, same for the others
   get 'static_pages/home'
-
   get 'static_pages/help'
-  
   get 'static_pages/about'
-
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-  root 'application#hello'
+  get 'static_pages/contact'
 end
